@@ -4,11 +4,10 @@ body {
   background-color: rgb(0, 140, 141);
   color: white;
 }
-.name-list {
+h1,p {
   margin: 0;
   border-bottom: solid 2px;
   border-color:rgb(0, 174, 174) ;
-  font-size: clamp(16px, 5vw, 24px);
 }
 .container {
   width: 100%;
@@ -20,8 +19,8 @@ body {
 }
 .to-do-container {
   background-color: rgb(0, 174, 174);
-  width: 60vw;
-  height: 50vw;
+  width: 500px;
+  height: 400px;
   justify-content: center;
   flex-direction: column;
   padding: 4px;
@@ -33,7 +32,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
+.clear-array-list,
 .input-container button {
   background-color: rgb(93, 198, 199);
   color: white;
